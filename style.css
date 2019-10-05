@@ -1,0 +1,29 @@
+body{
+	/*background-color: gray;*/
+	/*color: red;Teqsti himnakan guyn@*/
+}
+#div1	{
+	width: 300px;
+	height: 300px;
+	/*color: green;*/
+	background-color: pink;
+	border: 2px solid red;	/*dashed*/ 
+}
+.div2{
+	width: 50px;
+	height: 30px;
+	border: 1px solid black;
+}
+p{
+	/*color: white;*/
+	font-size: 50px;
+	/*font-family: Sylfaen;
+	text-shadow: 8px 8px 8px black,
+	             -8px -8px 8px black;*/
+	 font-style: italic;
+	 font-weight: bold;
+	 text-decoration: underline;
+	 text-decoration-color: red;
+	 text-decoration-color: green;
+	 text-decoration-style: dotted;
+}

@@ -1,0 +1,133 @@
+*{
+	color:white;
+}
+#animacia{
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+	animation-name: sharjum;
+	animation-duration: 5s;
+}
+@keyframes sharjum{
+	from{background-color: grey; transform: rotate(0);}
+	to{background-color: red;transform: rotate(365deg);}
+}
+#animacia_1{
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+	animation-name: sharjum_1;
+	animation-duration: 5s;
+	margin-top: 10px;
+}
+@keyframes sharjum_1{
+	0%{background-color: grey;}
+	50%{background-color: red;}
+	100%{background-color: green;}
+}
+#animacia_2{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;	
+	background-color: grey;
+	animation-name: sharjum_2;
+	animation-duration: 4s;
+	/*animation-delay: 3s;*/
+	/*animation-delay: -3s;*/
+	animation-iteration-count: infinite;
+	/*animation-iteration-count: 3;*/
+	/*animation-direction: reverse;*/
+	/*animation-direction: alternate;*/
+	/*animation-direction: alternate-reverse;*/
+	/*animation-direction: reverse-alternate;*/
+
+}
+@keyframes sharjum_2{
+	0%{left: 0;top:0;}
+	25%{left: 300px;top: 0;}
+	50%{left: 300px;top: 300px;}
+	75%{left: 0;top: 300px;}
+	100%{left: 0;top: 0;background-color: green;}
+}
+#div_1{
+	width: 120px;
+	height: 50px;
+	position: relative;
+	background-color: indigo;
+	border: 1px solid black;
+	animation-name: div_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+}
+#div_2{
+	width: 120px;
+	height: 50px;
+	position: relative;
+	background-color: indigo;
+	border: 1px solid black;
+	animation-name: div_1;
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+}
+#div_3{
+	width: 120px;
+	height: 50px;
+	position: relative;
+	background-color: indigo;
+	border: 1px solid black;
+	animation-name: div_1;
+	animation-duration: 5s;
+	animation-timing-function: ease-out;
+}
+#div_4{
+	width: 120px;
+	height: 50px;
+	position: relative;
+	background-color: indigo;
+	border: 1px solid black;
+	animation-name: div_1;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+}
+#div_5{
+	width: 120px;
+	height: 50px;
+	position: relative;
+	background-color: indigo;
+	border: 1px solid black;
+	animation-name: div_1;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+#div_6{
+	width: 120px;
+	height: 50px;
+	position: relative;
+	background-color: indigo;
+	border: 1px solid black;
+	animation-name: div_1;
+	animation-duration: 5s;
+	animation-timing-function:cubic-bezier(0, 1.46, 0.33, 0.35); 
+}
+@keyframes div_1{
+	from{left: 0px;}
+	to{left: 500px;}
+}
+button{
+	width: 100px;
+	height: 60px;
+	border: none;
+	font-size: 19px;
+	border-radius: 20px;
+	background-color:darkred;
+	/*transform: rotate(120deg);*/
+	transform: skewX(50deg);
+    transition: width 3s,height 3s,background-color 3s,font-size 3s;
+}
+button:hover{
+	width: 200px;
+	height: 120px;
+	background-color: red;
+	font-size: 29px;
+}

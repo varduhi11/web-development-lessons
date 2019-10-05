@@ -1,0 +1,42 @@
+body{
+	/*background-image: url(bg.jpg);*/
+	background-size: 100% ;
+	/*background-repeat: no-repeat;*/
+
+}
+#div_1{
+	width: 500px;
+	height: 500px;
+	border: 1px solid #F10567;
+	display: inline-block;
+}
+.div_2{
+	background-image: url(bg.jpg);
+	background-size: 100%;
+	width: 100px;
+	height: 100px;
+	border:1px solid  red;
+	display: inline-block;
+}
+input{
+	display: block; /*voch blokayiny dardznum e blokayin*/
+}
+#div_3{
+	width: 500px;
+	height: 400px;
+	border: 3px solid black;
+	margin: auto;
+}
+#div_big{
+	width: 600px;
+	height: 500px;
+	border: 5px solid #000000;
+	margin:0 auto;
+}
+.div_small{
+	width: 200px;
+	height: 290px;
+	border: 1px solid black;
+	display: inline-block;
+	background-color: red;
+}

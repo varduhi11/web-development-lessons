@@ -1,0 +1,12 @@
+div{
+	width: 200px;
+	height: 200px;
+	background-color:indigo;
+	border-radius: 50%;
+}
+.icon{
+	color: white;
+	font-size: 60px;
+	padding-top: 65px;
+	padding-left: 65px;
+}

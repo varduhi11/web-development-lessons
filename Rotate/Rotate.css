@@ -1,0 +1,25 @@
+*{
+	color: white;
+}
+.icon{
+	font-size: 100px;
+	margin: 40px 60px;
+}
+#animation{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: yellow;
+}
+#animation:hover{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	animation-name: ptuyt;
+	animation-duration: 5s;
+	background-color: yellow;
+}
+@keyframes ptuyt{
+	from{background-color: yellow; transform: rotate(0);}
+	to{background-color: darkred;transform: rotate(360deg);border-radius: 0;}
+}
